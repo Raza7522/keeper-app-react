@@ -1,114 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=McLaren&family=Montserrat&display=swap");
 
-:root{
-    --main-color: #f5ba13;
-    --bg-color: #EEE;
-    --footer-text-color: #CCC;
+:root {
+  --main-color: #f5ba13;
+  --bg-color: #eee;
+  --footer-text-color: #ccc;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--bg-color);
-    padding: 0 1rem;
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-color);
+  padding: 0 1rem;
 }
 
-header{
-    background-color: var(--main-color);
-    margin: auto -1rem;
-    padding: 1rem 2rem;
-    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+header {
+  background-color: var(--main-color);
+  margin: auto -1rem;
+  padding: 1rem 2rem;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
 }
 
-header h1{
-    font-family: 'McLaren', cursive;
-    font-weight: 200;
-    color: #fff;
+header h1 {
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  color: #fff;
 }
 
-.form{
-    width: 480px;
-    text-align: center;
-    position: relative;
-    padding: 1rem;
-    margin: 2rem auto 1rem auto;
-    background-color: #fff;
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+.form {
+  max-width: 480px;
+  text-align: center;
+  position: relative;
+  padding: 1rem;
+  margin: 2rem auto 1rem auto;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-.form input, .form textarea{
-    font-family: inherit;
-    width: 100%;
-    padding: 0.3rem;
-    font-size: 1.2rem;
-    border: none;
-    outline: none;
-    resize: none;
+.form input,
+.form textarea {
+  font-family: inherit;
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  resize: none;
 }
 
-.form button{
-    color: #fff;
-    height: 2rem;
-    width: 2rem;
-    background-color: var(--main-color);
-    border: none;
-    position: absolute;
-    right: 1rem;
-    bottom: -1rem;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+.form button {
+  color: #fff;
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--main-color);
+  border: none;
+  position: absolute;
+  right: 1rem;
+  bottom: -1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-.note{
-    background-color: #fff;
-    width: 240px;
-    border-radius: 0.5rem;
-    padding: 0.6rem;
-    margin: 1rem;
-    position: relative;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    float: left;
+.note {
+  background-color: #fff;
+  width: 240px;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  margin: 1rem;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  float: left;
 }
 
-.note h1{
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+.note h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
-.note p{
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+.note p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
-.note button{
-    border: none;
-    color: var(--main-color);
-    background-color: var(--bg-color);
-    position: relative;
-    float: right;
-    width: 2rem;
-    height: 2rem;
-    margin-right: 0.8rem;
-    cursor: pointer;
+.note button {
+  border: none;
+  color: var(--main-color);
+  background-color: var(--bg-color);
+  position: relative;
+  float: right;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    height: 2.5rem;
-    width: 100%;
-    text-align: center;
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+  width: 100%;
+  text-align: center;
 }
 
-footer p{
-    color: var(--footer-text-color);
+footer p {
+  color: var(--footer-text-color);
 }
